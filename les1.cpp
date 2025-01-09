@@ -1,14 +1,13 @@
 #include <iostream>
 
+using namespace std;
 int main() {
-    int file_size;
-    file_size = 100;
-
-    double sales = 9.99;
-
-    std::cout << "Tested\n";
-    std::cout << file_size << "\n";
-    std::cout << sales << "\n";
+    int x = 4;
+    int y = 6;
+    
+    cout << "x = " << x << endl
+         << "y = " << y << endl
+         << "x + y = " << (x+y) << endl;
 
     return 0;
 }
